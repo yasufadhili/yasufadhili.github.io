@@ -5,7 +5,7 @@
 
 - 😄 Pronouns: ... He//Him
   
-- ⚡ Fun fact: ... I started learning to code in mid 2023 - Hop I didn't jump in late 😄😄😄😄
+- ⚡ Fun fact: ... I started learning to code in mid 2023 - Hope I didn't jump in late 😄😄😄😄
 
 <!---
 Yasu-Fadhili/Yasu-Fadhili is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
