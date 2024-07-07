@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Yasu-Fadhili
 -  I'm a computer student
 - 👀 I’m interested in ... Alot
-- 🌱 I’m currently learning ... JavaScript
+- 🌱 I’m currently learning ... JavaScript/TypeScript
 
 - 😄 Pronouns: ... He//Him
   
