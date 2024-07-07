@@ -84,6 +84,66 @@ I am a passionate developer with a keen interest in building mobile applications
 - **Role:** Full-Stack Developer
 - **Responsibilities:** Developed the frontend using Next.js, implemented backend services with Django, and managed the PostgreSQL database. Focused on creating a vibrant community space with rich interactive features.
 
+#### 11. **NetMon - Network Monitoring Tool**
+- **Technologies Used:** C, Python, Django, PostgreSQL
+- **Description:** A comprehensive network monitoring tool that helps IT administrators track network performance, identify bottlenecks, and troubleshoot connectivity issues. Features include real-time monitoring, alert notifications, and detailed performance reports.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed core network monitoring functionalities using C, implemented backend services with Django, managed the PostgreSQL database, and created scripts in Python for data analysis and reporting.
+
+#### 12. **SecuGuard - Cybersecurity Intrusion Detection System**
+- **Technologies Used:** C++, Python, Django
+- **Description:** An advanced intrusion detection system (IDS) that monitors network traffic for suspicious activities and potential threats. Features include real-time alerts, threat intelligence integration, and a user-friendly dashboard.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed detection algorithms and core functionalities using C++, implemented the backend with Django, and utilised Python for threat analysis and integration with external threat intelligence sources.
+
+#### 13. **AutoML - Automated Machine Learning Platform**
+- **Technologies Used:** C++, Python, TensorFlow, Django
+- **Description:** A platform that automates the process of training and deploying machine learning models. Features include data preprocessing, model selection, hyperparameter tuning, and deployment to production environments.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed core machine learning algorithms and automation scripts using C++ and Python, implemented backend services with Django, and integrated TensorFlow for model training and deployment.
+
+#### 14. **SysLog - System Log Management and Analysis Tool**
+- **Technologies Used:** C, C++, Python, Django, PostgreSQL
+- **Description:** A tool for collecting, managing, and analysing system logs from various sources. Features include real-time log collection, log parsing, anomaly detection, and visualisation of log data.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed core log management functionalities using C and C++, implemented backend services with Django, managed the PostgreSQL database, and utilised Python for log analysis and visualisation.
+
+#### 15. **EmbeddedSense - IoT Sensor Network Platform**
+- **Technologies Used:** C, C++, Python, Django, MQTT
+- **Description:** An IoT platform for managing and analysing data from a network of embedded sensors. Features include real-time data collection, device management, and data analytics.
+- **Role:** Embedded Systems Developer
+- **Responsibilities:** Developed firmware for IoT sensors using C and C++, implemented backend services with Django, and utilised MQTT for real-time data communication. Created Python scripts for data analysis and integration with the Django backend.
+
+#### 16. **AutoPilot - Autonomous Vehicle Control System**
+- **Technologies Used:** C++, Python, ROS (Robot Operating System), Django
+- **Description:** An autonomous vehicle control system that enables self-driving capabilities. Features include real-time navigation, obstacle detection, and route planning.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed core control algorithms and navigation functionalities using C++ and Python, implemented backend services with Django, and integrated ROS for robotic control and simulation.
+
+#### 17. **VoiceAssist - Voice Recognition and Command System**
+- **Technologies Used:** C++, Python, TensorFlow, Django
+- **Description:** A voice recognition and command system that allows users to control devices and applications through voice commands. Features include real-time speech recognition, natural language processing, and integration with various IoT devices.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed core voice recognition algorithms using C++ and Python, implemented backend services with Django, and integrated TensorFlow for speech-to-text conversion and natural language processing.
+
+#### 18. **BioMed - Biomedical Signal Processing System**
+- **Technologies Used:** C, C++, Python, Django
+- **Description:** A system for processing and analysing biomedical signals, such as ECG and EEG. Features include real-time signal acquisition, filtering, feature extraction, and visualisation.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed core signal processing algorithms using C and C++, implemented backend services with Django, and utilised Python for data analysis and visualisation.
+
+#### 19. **FleetTrack - Vehicle Fleet Management System**
+- **Technologies Used:** C++, Python, Django, GPS
+- **Description:** A system for managing and tracking a fleet of vehicles in real-time. Features include GPS tracking, route optimisation, maintenance scheduling, and driver behaviour analysis.
+- **Role:** System Software Developer
+- **Responsibilities:** Developed core tracking and management functionalities using C++ and Python, implemented backend services with Django, and integrated GPS for real-time location tracking.
+
+#### 20. **EnviroSense - Environmental Monitoring System**
+- **Technologies Used:** C, C++, Python, Django, MQTT
+- **Description:** A system for monitoring environmental parameters, such as air quality, temperature, and humidity. Features include real-time data collection, anomaly detection, and data visualisation.
+- **Role:** Embedded Systems Developer
+- **Responsibilities:** Developed firmware for environmental sensors using C and C++, implemented backend services with Django, utilised MQTT for real-time data communication, and created Python scripts for data analysis and visualisation.
+
 ### Additional Information
 
 - **Continuous Learning:** I am committed to continuous learning and regularly participate in online courses and workshops to stay updated with the latest technologies and best practices.
@@ -93,11 +153,9 @@ I am a passionate developer with a keen interest in building mobile applications
 
 ### Contact Information
 
-- **Email:** [Your Email]
-- **LinkedIn:** [Your LinkedIn Profile]
-- **GitHub:** [Your GitHub Profile]
-- **Portfolio:** [Your Portfolio Website]
+- **Email:** [yasufadhili@gmail.com]
+- **LinkedIn:** []
+- **GitHub:** [https://github.com/yasufadhili/]
+- **Portfolio:** []
 
 ---
-
-This comprehensive profile highlights your skills, projects, and qualities, positioning you as a versatile and dedicated software developer.
