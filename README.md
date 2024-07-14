@@ -22,6 +22,7 @@ I am a passionate developer with a keen interest in building mobile applications
 - **Database Management:** PostgreSQL, Supabase, Firebase
 - **Languages:** JavaScript, TypeScript, Python, C, C++
 
+<!---
 ### Notable Projects
 
 #### 1. **Connectify - Social Networking App**
@@ -143,6 +144,7 @@ I am a passionate developer with a keen interest in building mobile applications
 - **Description:** A system for monitoring environmental parameters, such as air quality, temperature, and humidity. Features include real-time data collection, anomaly detection, and data visualisation.
 - **Role:** Embedded Systems Developer
 - **Responsibilities:** Developed firmware for environmental sensors using C and C++, implemented backend services with Django, utilised MQTT for real-time data communication, and created Python scripts for data analysis and visualisation.
+--->
 
 ### Additional Information
 
