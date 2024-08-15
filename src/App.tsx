@@ -1,11 +1,14 @@
-import HomeScreen from "./pages/HomePage"
-import Header from "./components/Header"
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import BlogPage from "./pages/BlogPage";
 
 function App() {
 
   return (
     <>
-     <HomeScreen />
+    <Header />
+    <BlogPage />
+    <Footer />
     </>
   )
 }
