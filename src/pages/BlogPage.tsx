@@ -75,12 +75,12 @@ const BlogPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+    <div className="min-h-screen bg-gray-900">
+      <header className="bg-gradient-to-r from-gray-900 to-blue-900 text-white py-40">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">Yasu's Tech Blog</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">Yasu's Blog</h1>
           <p className="text-xl md:text-2xl animate-fade-in-up">
-            Exploring the frontiers of web development, AI, and everything in between.
+            Exploring the frontiers of software development, AI, and everything in between.
           </p>
         </div>
       </header>
@@ -90,26 +90,26 @@ const BlogPage: React.FC = () => {
           {posts.slice(0, visiblePosts).map((post, index) => (
             <article 
               key={post.id} 
-              className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out"
+              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 ease-in-out"
               style={{animationDelay: `${index * 0.1}s`}}
             >
               <img src={post.imageUrl} alt={post.title} className="w-full h-48 object-cover" />
               <div className="p-6">
-                <h2 className="text-2xl font-bold mb-2 text-gray-800">{post.title}</h2>
-                <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                <div className="flex items-center text-sm text-gray-500 mb-2">
+                <h2 className="text-2xl font-bold mb-2 text-gray-100">{post.title}</h2>
+                <p className="text-gray-300 mb-4">{post.excerpt}</p>
+                <div className="flex items-center text-sm text-gray-300 mb-2">
                   <FaUser className="mr-2" />
                   <span>{post.author}</span>
                 </div>
-                <div className="flex items-center text-sm text-gray-500 mb-2">
+                <div className="flex items-center text-sm text-gray-300 mb-2">
                   <FaCalendar className="mr-2" />
                   <span>{post.date}</span>
                 </div>
-                <div className="flex items-center text-sm text-gray-500">
+                <div className="flex items-center text-sm text-gray-300">
                   <FaTags className="mr-2" />
                   <div className="flex flex-wrap">
                     {post.tags.map((tag, index) => (
-                      <span key={index} className="bg-gray-200 rounded-full px-2 py-1 text-xs mr-2 mb-2">{tag}</span>
+                      <span key={index} className="bg-gray-700 rounded-full px-2 py-1 text-xs mr-2 mb-2">{tag}</span>
                     ))}
                   </div>
                 </div>
