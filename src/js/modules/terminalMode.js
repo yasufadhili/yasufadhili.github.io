@@ -24,7 +24,7 @@ export function initTerminalMode() {
         
         const text = `> Initiating terminal access protocol...
 > Authenticating visitor...
-> Access granted to XJ systems interface
+> Access granted to YF systems interface
 > Welcome to Singular Surface
 > Type 'help' for available commands
 
@@ -102,34 +102,16 @@ Available commands:
 - exit        : Return to standard interface`;
                     break;
                 case 'projects':
-                    response = `Current Projects:
-1. Kiswahili Programming Language - A programming language with East African syntax
-2. Zero-Trust Network Protocol - Implementing next-gen security architecture
-3. Compact C++ Compiler - Educational compiler with modern C++ features
-4. BPF Performance Tools - Linux kernel instrumentation toolkit`;
+                    response = ``;
                     break;
                 case 'background':
-                    response = `Professional Background:
-- Systems Engineer with 8+ years experience
-- Specialization in cyber security architecture
-- Programming language design enthusiast
-- Open source contributor to LLVM and networking projects`;
+                    response = ``;
                     break;
                 case 'contact':
-                    response = `Contact Information:
-- Email: yf@example.com
-- GitHub: github.com/yf
-- LinkedIn: linkedin.com/in/yf`;
+                    response = ``;
                     break;
                 case 'skills':
-                    response = `Technical Competencies:
-- C++, Go, Rust, Python
-- Compiler Design & Implementation
-- Network Protocol Engineering
-- Zero Trust Architecture
-- Web Component Systems
-- BPF/eBPF Programming
-- Graph Theory & Algorithms`;
+                    response = ``;
                     break;
                 case 'exit':
                     terminalMode.classList.add('hidden');
@@ -140,7 +122,7 @@ Available commands:
             }
             
             // Display response
-            terminalText.textContent += `\n\nXJ@Singular_Surface:~$ ${cmd}\n${response}`;
+            terminalText.textContent += `\n\nYF@YasuFadhili:~$ ${cmd}\n${response}`;
             terminalText.scrollTop = terminalText.scrollHeight;
         }
     }
