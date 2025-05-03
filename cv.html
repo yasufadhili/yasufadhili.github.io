@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yasu Fadhili - CV">
+    <meta name="keywords" content="CV, resume, programming, systems development">
+    <meta name="author" content="Yasu Fadhili">
+    
+    <title>Yasu Fadhili - CV</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link href="src/css/styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        carbon: {
+                            900: '#0f1117',
+                            800: '#171a23',
+                            700: '#1f2230'
+                        },
+                        accent: {
+                            cyan: '#00e8fc',
+                            violet: '#8a2be2',
+                            orange: '#ff7f50'
+                        }
+                    },
+                    fontFamily: {
+                        mono: ['IBM Plex Mono', 'monospace'],
+                        sans: ['Space Grotesk', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="dark bg-carbon-900 text-white font-mono min-h-screen relative">
+    <div class="noise"></div>
+    
+    <header class="fixed top-0 w-full px-6 py-4 flex justify-between items-center z-50">
+        <a href="index.html" class="text-2xl font-bold text-accent-cyan hover:scale-105 transition-transform duration-150">←</a>
+        <button id="print-cv" class="text-xl hover:text-accent-cyan hover:scale-105 transition-all duration-150">🖨️</button>
+    </header>
+
+    <main class="container mx-auto px-4 py-20 max-w-4xl">
+        <div class="bg-carbon-800/50 border border-accent-cyan/20 rounded-lg p-8 mb-8">
+            <h1 class="text-4xl font-sans font-semibold mb-2 text-accent-cyan">Yasu Fadhili</h1>
+            <p class="text-gray-400 mb-6">Systems Development | Cyber Security | Networking</p>
+            <div class="flex flex-wrap gap-4 text-sm">
+                <span class="px-3 py-1 bg-accent-cyan/10 text-accent-cyan rounded-full">Programming</span>
+                <span class="px-3 py-1 bg-accent-cyan/10 text-accent-cyan rounded-full">Linux</span>
+                <span class="px-3 py-1 bg-accent-cyan/10 text-accent-cyan rounded-full">Systems Design</span>
+                <span class="px-3 py-1 bg-accent-cyan/10 text-accent-cyan rounded-full">Networking</span>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="space-y-8">
+                <section class="bg-carbon-800/50 border border-accent-cyan/20 rounded-lg p-6">
+                    <h2 class="text-xl font-sans font-semibold mb-4 text-accent-cyan">Current Focus</h2>
+                    <div class="space-y-4">
+                        <div class="border-l-2 border-accent-cyan pl-4">
+                            <h3 class="font-semibold">Argon Programming Language</h3>
+                            <p class="text-sm text-gray-400">A minimal toy programming language and toolchain</p>
+                            <ul class="mt-2 text-sm space-y-1">
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    Designed and implemented core language features
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    Built custom lexer and parser
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    Developed Linux-specific toolchain
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-carbon-800/50 border border-accent-cyan/20 rounded-lg p-6">
+                    <h2 class="text-xl font-sans font-semibold mb-4 text-accent-cyan">Areas of Interest</h2>
+                    <div class="space-y-4">
+                        <div class="border-l-2 border-accent-cyan pl-4">
+                            <h3 class="font-semibold">Programming Languages</h3>
+                            <p class="text-sm text-gray-400">Design, implementation, and theory</p>
+                        </div>
+                        <div class="border-l-2 border-accent-cyan pl-4">
+                            <h3 class="font-semibold">Systems Programming</h3>
+                            <p class="text-sm text-gray-400">Low-level systems and performance optimization</p>
+                        </div>
+                        <div class="border-l-2 border-accent-cyan pl-4">
+                            <h3 class="font-semibold">Cyber Security</h3>
+                            <p class="text-sm text-gray-400">System security and network protection</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="space-y-8">
+                <section class="bg-carbon-800/50 border border-accent-cyan/20 rounded-lg p-6">
+                    <h2 class="text-xl font-sans font-semibold mb-4 text-accent-cyan">Timeline</h2>
+                    <div class="space-y-4">
+                        <div class="border-l-2 border-accent-cyan pl-4">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="font-semibold">Programming Journey</h3>
+                                    <p class="text-sm text-gray-400">2024 - Present</p>
+                                </div>
+                                <span class="text-accent-cyan text-sm">Ongoing</span>
+                            </div>
+                            <p class="mt-2 text-sm">Started programming journey with a focus on systems development and language design</p>
+                        </div>
+                        <div class="border-l-2 border-accent-cyan pl-4">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="font-semibold">Argon Development</h3>
+                                    <p class="text-sm text-gray-400">2024 - Present</p>
+                                </div>
+                                <span class="text-accent-cyan text-sm">Active</span>
+                            </div>
+                            <p class="mt-2 text-sm">Began development of the Argon programming language and its toolchain, focusing on creating a minimal yet powerful language for systems programming</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-carbon-800/50 border border-accent-cyan/20 rounded-lg p-6">
+                    <h2 class="text-xl font-sans font-semibold mb-4 text-accent-cyan">Skills</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="text-sm font-semibold mb-2">Languages</h3>
+                            <ul class="text-sm space-y-1">
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    C/C++
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    Python
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    JavaScript
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-semibold mb-2">Tools</h3>
+                            <ul class="text-sm space-y-1">
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    Git
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    Linux
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="text-accent-cyan mr-2">•</span>
+                                    Vim
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="mt-12 bg-carbon-800/50 border border-accent-cyan/20 rounded-lg p-6">
+            <h2 class="text-xl font-sans font-semibold mb-4 text-accent-cyan">Contact</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <span class="text-accent-cyan mr-3">📧</span>
+                        <a href="mailto:yasufadhili@proton.me" class="hover:text-accent-cyan transition-colors">yasufadhili@proton.me</a>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-accent-cyan mr-3">💻</span>
+                        <a href="https://github.com/yasufadhili" target="_blank" rel="noopener noreferrer" class="hover:text-accent-cyan transition-colors">github.com/yasufadhili</a>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <span class="text-accent-cyan mr-3">🌐</span>
+                        <a href="https://yasufadhili.github.io" target="_blank" rel="noopener noreferrer" class="hover:text-accent-cyan transition-colors">yasufadhili.github.io</a>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-accent-cyan mr-3">📍</span>
+                        <span>Afrika Mashariki</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 text-center text-xs text-gray-500">
+          <p>Last updated: <span id="current-date"></span></p>
+        </div>
+    </main>
+
+    <script>
+        // Set current date
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-GB', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+        });
+
+        // Print functionality
+        document.getElementById('print-cv').addEventListener('click', () => {
+            window.print();
+        });
+    </script>
+</body>
+</html> 
