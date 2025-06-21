@@ -3,19 +3,19 @@ export class XJSkillsCloud extends HTMLElement {
   connectedCallback() {
       
       const skills = [
-          { name: "Cyber Security", desc: "Zero trust architectures and threat modeling" },
-          { name: "Compilers", desc: "Language front-ends and LLVM-based code generation" },
+          { name: "Networking", desc: "Protocol design and implementation" },
           { name: "C++", desc: "Performance-driven systems programming with modern standards" },
+          { name: "Compilers", desc: "Language front-ends and LLVM-based code generation" },
+          { name: "Cyber Security", desc: "Zero trust architectures and threat modeling" },
           //{ name: "TailwindCSS", desc: "Utility-first design systems for the web" },
           //{ name: "BPF/eBPF", desc: "Kernel instrumentation and observability" },
-          { name: "Networking", desc: "Protocol design and implementation" },
           //{ name: "Language Design", desc: "Creating intuitive and powerful abstractions" },
           //{ name: "Web Components", desc: "Building modular, reusable UI elements" },
-          { name: "Web Assembly", desc: "" },
+          { name: "Wasm", desc: "Web Assembly" },
           { name: "GoLang", desc: "Clean, effective service architecture and networking" },
           { name: "Zero Trust", desc: "Security architecture for modern systems" },
-          { name: "LLVM", desc: "Compiler infrastructure and optimisation passes" },
-          { name: "Linux", desc: "" },
+          //{ name: "LLVM", desc: "Compiler infrastructure and optimisation passes" },
+          { name: "Linux", desc: "A very cool operating system" },
           { name: "Graph Theory", desc: "Algorithms for complex relationships and paths" },
           { name: "Cryptography", desc: "" }
       ];

@@ -1,4 +1,4 @@
-class ArgonSection extends HTMLElement {
+class  JawtSection extends HTMLElement {
     constructor() {
         super();
     }
@@ -10,12 +10,12 @@ class ArgonSection extends HTMLElement {
     render() {
         this.innerHTML = `
             <div class="bg-carbon-800/50 border border-accent-cyan/20 rounded-lg p-6 mb-8 w-full">
-                <h2 class="text-xl font-sans font-semibold mb-4 text-accent-cyan">Argon</h2>
+                <h2 class="text-xl font-sans font-semibold mb-4 text-accent-cyan">Jawt</h2>
                 <p class="text-gray-300 mb-4">
-                  Argon is my attempt at building a minimal toy programming language.
-                  It has a simple syntax and set of features. It runs on Linux only for now.
+                  Jawt is my attempt at building a toolchain that allows building minimal web apps with a declarative approach.
+                  It uses a custom language called JML to provide a unified development environment
                 </p>
-                <a href="https://github.com/yasufadhili/argon" 
+                <a href="https://github.com/yasufadhili/jawt" 
                    target="_blank" 
                    rel="noopener noreferrer" 
                    class="inline-flex items-center text-accent-cyan hover:text-accent-cyan/80 transition-colors">
@@ -29,4 +29,4 @@ class ArgonSection extends HTMLElement {
     }
 }
 
-customElements.define('yf-argon-section', ArgonSection); 
+customElements.define('yf-jawt-section', JawtSection); 
